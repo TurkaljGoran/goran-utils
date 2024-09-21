@@ -1,0 +1,19 @@
+{
+  "name": "@goranhir/utils",
+  "version": "0.0.1",
+  "description": "Just a test.",
+  "main": "lib/es5/index.js",
+  "module": "lib/es6/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:TurkaljGoran/goran-utils.git"
+  },
+  "keywords": ["utilities", "javascript"],
+  "files": ["lib", "package.json"],
+ 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Goran Turkalj",
+  "license": "MIT"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "goran-utils",
+    "version": "0.0.1",
+    "repository": "git@github.com:TurkaljGoran/goran-utils.git",
+    "author": "Turkalj Goran <goran@iconis.digital>",
+    "license": "MIT",
+    "scripts": {
+        "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json"
+    },
+    "devDependencies": {
+        "typescript": "^5.6.2"
+    }
+}

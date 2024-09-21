@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS", //means we're using it inside Node JS
+        "target": "ES5",
+        "lib": ["ES2020", "DOM"],
+        "declaration": true,
+        "outDir": "./dist/lib/es5",
+        "moduleResolution": "Node"
+    },
+    "include": ["src/**/*"]
+}
